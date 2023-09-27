@@ -13,6 +13,7 @@ import Footer from "./Footer/Footer";
 import Main from "./Main/Main";
 import Capsules from "./Capsules/Capsules";
 import Capsule from "./Capsule/Capsule";
+import Cors from "./Cors/Cors"
 const Home = () => {
   return (
     <Router>
@@ -24,6 +25,7 @@ const Home = () => {
               <Route path="/home" component={Main} />
               <Route path="/rockets" component={Rockets} />
               <Route path="/capsules" component={Capsules} />
+              <Route path="/cors" component={Cors} />
               <Route path="/capsule/:capsule_serial" component={Capsule} />
               <Redirect exact from="/" to="/home" />
             </Switch>

@@ -1,0 +1,14 @@
+.cor-img{
+    padding: 20px;
+    background-image: url("https://source.unsplash.com/random/?space");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

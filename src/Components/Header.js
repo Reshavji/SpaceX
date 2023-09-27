@@ -90,6 +90,7 @@ function Header() {
         <nav>
           <ul>
             <Link to="/rockets"><li>Rockets</li></Link>
+            <Link to="/cors"><li>Cors</li></Link>
             <Link to="/capsules"><li>Capsules</li></Link>
           </ul>
         </nav>
